@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/fab_margin"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/media_card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        card_view:cardBackgroundColor="@android:color/white"
+        card_view:cardElevation="2dp"
+        card_view:cardCornerRadius="16dp"
+        card_view:cardUseCompatPadding="true">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/ctlsBg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/imvThumbnail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:importantForAccessibility="no"
+                android:scaleType="centerInside"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tvRecipeName"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/text_size"
+                android:textStyle="normal"
+                android:layout_margin="@dimen/fab_margin"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imvThumbnail" />
+
+            <ImageView
+                android:id="@+id/imvDelete"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:layout_margin="@dimen/fab_margin"
+                android:importantForAccessibility="no"
+                android:src="@drawable/ic_delete"
+                app:layout_constraintTop_toBottomOf="@id/imvThumbnail"
+                app:layout_constraintRight_toRightOf="parent"/>
+
+            <ImageView
+                android:id="@+id/ic_ingredient"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:importantForAccessibility="no"
+                android:src="@drawable/ic_ingredient"
+                android:layout_margin="@dimen/fab_margin"
+                android:layout_marginTop="@dimen/padding_8"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintLeft_toRightOf="@+id/imvThumbnail"
+                app:layout_constraintTop_toBottomOf="@id/tvRecipeName" />
+
+            <TextView
+                android:id="@+id/tvIngredientCount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/fab_margin"
+                android:layout_marginStart="@dimen/space_vertical"
+                android:layout_marginTop="@dimen/padding_8"
+                android:textColor="@android:color/black"
+                app:layout_constraintLeft_toRightOf="@+id/ic_ingredient"
+                app:layout_constraintTop_toBottomOf="@+id/tvRecipeName" />
+
+            <ImageView
+                android:id="@+id/ic_step"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:importantForAccessibility="no"
+                android:layout_margin="@dimen/fab_margin"
+                android:src="@drawable/ic_step"
+                android:layout_marginTop="@dimen/padding_8"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/ic_ingredient" />
+
+            <TextView
+                android:id="@+id/tvStepCount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/fab_margin"
+                android:layout_marginStart="@dimen/space_vertical"
+                android:layout_marginTop="@dimen/text_size"
+                android:textColor="@android:color/black"
+                app:layout_constraintLeft_toRightOf="@+id/ic_step"
+                app:layout_constraintTop_toBottomOf="@+id/ic_ingredient" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Recipe App</string>
+    <string name="error_permission" translatable="false">Permission denied</string>
+    <string name="label_recipe_btn">Create Recipe</string>
+    <string name="label_recipe_name">Recipe Name(*)</string>
+    <string name="label_recipe_type">Recipe Types</string>
+    <string name="label_recipe_image">Recipe Thumbnail(*)</string>
+    <string name="label_recipe_ingredient">Recipe Ingredients(*)</string>
+    <string name="label_recipe_steps">Step-by-step Recipes(*)</string>
+    <string name="label_hint_recipe_image">Tab and upload your recipe image(*)</string>
+    <string name="label_hint_recipe_ingredient">New Ingredient(*)</string>
+    <string name="label_recipe_hint_name">New Recipe(*)</string>
+    <string name="label_hint_recipe_steps">New Step(*)</string>
+    <string name="label_recipe_create">Create</string>
+    <string name="error_pick_image_from_gallery">Unable to get the path. Try again!</string>
+    <string name="error_image_load">Glide load image failed</string>
+    <string name="error_require_ingredient">Please add new ingredient</string>
+    <string name="error_require_step">Please add new ingredient</string>
+    <string name="error_duplicate_ingredient">The ingredient have already existed</string>
+    <string name="error_duplicate_step">The step have already existed</string>
+    <string name="update_ingredient_successfully">Update ingredient successfully</string>
+    <string name="update_step_successfully">Update step successfully</string>
+    <string name="toolbar_title_create_recipe">Create New Recipe</string>
+    <string name="error_fill_information">Please fill all information in form</string>
+    <string name="new_recipe">New</string>
+    <string name="save_recipe_successfully">Save recipe successfully</string>
+    <string name="no_data">No Data</string>
+    <string name="delete_recipe_successfully">Delete recipe successfully</string>
+    <string name="all">All</string>
+
+    <string name="label_example_ingredients">Saturated fat 4.5 g\nPolyunsaturated fat 1.8 g\n...</string>
+    <string name="label_example_steps">Step 1: Getting Started\nStep 2: Make a Well in the Center of the Dough\n...</string>
+
+    <string name="label_count_ingredients">Consist %1$s ingredients for cooking</string>
+    <string name="label_count_steps">Consist %1$s step by step for cooking</string>
+</resources>
