@@ -46,8 +46,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/view/activity/RecipeActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="427">
-              <caret line="302" column="41" lean-forward="true" selection-start-line="302" selection-start-column="41" selection-end-line="302" selection-end-column="41" />
+            <state relative-caret-position="472">
+              <caret line="305" column="22" lean-forward="true" selection-start-line="305" selection-start-column="22" selection-end-line="305" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#10400#10447#0" expanded="true" />
@@ -966,8 +966,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/view/activity/RecipeActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
-          <caret line="302" column="41" lean-forward="true" selection-start-line="302" selection-start-column="41" selection-end-line="302" selection-end-column="41" />
+        <state relative-caret-position="472">
+          <caret line="305" column="22" lean-forward="true" selection-start-line="305" selection-start-column="22" selection-end-line="305" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#10400#10447#0" expanded="true" />
